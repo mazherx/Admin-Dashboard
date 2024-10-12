@@ -19,16 +19,16 @@ const UserGrowthChart = () => {
 			transition={{ delay: 0.3 }}
 		>
 			<h2 className='text-xl font-bold text-custom-gray mb-4'>User Growth</h2>
-			<div className='h-[320px]'>
-				<ResponsiveContainer width='100%' height='100%'>
+			<div className='h-[320px] text-chart-color'>
+				<ResponsiveContainer width='100%' height='100%' >
 					<LineChart data={userGrowthData}>
 						<CartesianGrid strokeDasharray='3 3' stroke='#374151' />
 						<XAxis dataKey='month' stroke='#9CA3AF' />
 						<YAxis stroke='#9CA3AF' />
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
-								borderColor: "#4B5563",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
+								
 							}}
 							itemStyle={{ color: "#E5E7EB" }}
 						/>

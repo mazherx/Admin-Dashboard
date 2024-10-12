@@ -20,7 +20,7 @@ const UserActivityHeatmap = () => {
 			transition={{ delay: 0.4 }}
 		>
 			<h2 className='text-xl font-bold text-custom-gray mb-4'>User Activity Heatmap</h2>
-			<div style={{ width: "100%", height: 300 }}>
+			<div style={{ width: "100%", height: 300, color:'#4880FF'}}>
 				<ResponsiveContainer>
 					<BarChart data={userActivityData}>
 						<CartesianGrid strokeDasharray='3 3' stroke='#374151' />
@@ -28,7 +28,7 @@ const UserActivityHeatmap = () => {
 						<YAxis stroke='#9CA3AF' />
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
 								borderColor: "#4B5563",
 							}}
 							itemStyle={{ color: "#E5E7EB" }}

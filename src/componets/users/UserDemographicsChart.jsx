@@ -20,7 +20,7 @@ const UserDemographicsChart = () => {
 			transition={{ delay: 0.5 }}
 		>
 			<h2 className='text-xl font-bold text-custom-gray mb-4'>User Demographics</h2>
-			<div style={{ width: "100%", height: 300 }}>
+			<div style={{ width: "100%", height: 300, }}>
 				<ResponsiveContainer>
 					<PieChart>
 						<Pie
@@ -38,7 +38,7 @@ const UserDemographicsChart = () => {
 						</Pie>
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
 								borderColor: "#4B5563",
 							}}
 							itemStyle={{ color: "#E5E7EB" }}

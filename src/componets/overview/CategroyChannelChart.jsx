@@ -20,7 +20,7 @@ const SalesChannelChart = () => {
 		>
 			<h2 className='text-lg font-bold mb-4 text-custom-gray'>Sales by Channel</h2>
 
-			<div className='h-80'>
+			<div className='h-80 text-chart-color'>
 				<ResponsiveContainer>
 					<BarChart data={SALES_CHANNEL_DATA}>
 						<CartesianGrid strokeDasharray='3 3' stroke='#4B5563' />
@@ -28,7 +28,7 @@ const SalesChannelChart = () => {
 						<YAxis stroke='#9CA3AF' />
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
 								borderColor: "#4B5563",
 							}}
 							itemStyle={{ color: "#E5E7EB" }}

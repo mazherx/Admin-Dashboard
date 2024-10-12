@@ -3,14 +3,14 @@ import React from 'react';
 const Header = ({ title }) => {
   return (
     <header className='bg-white backdrop-blur-md shadow-lg border-b border-border-color'>
-      <div className='max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center'>
+      <div className='max-w-8xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center ml-7 mr-7'>
         {/* Title */}
-        <h1 className='text-2xl text-custom-gray font-extrabold'>
+        <h1 className=' text-custom-gray font-extrabold text-3xl'>
           {title}
         </h1>
         
         {/* Search Bar - Hidden on small screens */}
-        <div className="relative w-[300px] md:w-[480px] bg-white rounded-2xl p-1.5 transition-all duration-150 ease-in-out hover:scale-105 hover:shadow-lg hidden md:block">
+        <div className="relative w-[300px] md:w-[480px] bg-white rounded-2xl p-1.5 transition-all duration-150 ease-in-out  hidden md:block">
           <div className="absolute inset-y-0 left-0 pl-2.5 flex items-center pointer-events-none">
             <svg
               className="h-5 w-5 text-gray-400"

@@ -46,7 +46,7 @@ const SalesOverviewChart = () => {
 						<XAxis dataKey='month' stroke='#9CA3AF' />
 						<YAxis stroke='#9CA3AF' />
 						<Tooltip
-							contentStyle={{ backgroundColor: "rgba(31, 41, 55, 0.8)", borderColor: "#4B5563" }}
+							contentStyle={{ backgroundColor: "rgba(0, 0, 0, 0.8)", borderColor: "#4B5563" }}
 							itemStyle={{ color: "#E5E7EB" }}
 						/>
 						<Area type='monotone' dataKey='sales' stroke='#8B5CF6' fill='#8B5CF6' fillOpacity={0.3} />

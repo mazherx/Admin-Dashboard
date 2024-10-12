@@ -39,7 +39,7 @@ const CustomerSegmentation = () => {
 						<Legend />
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
 								borderColor: "#4B5563",
 							}}
 							itemStyle={{ color: "#E5E7EB" }}

@@ -39,11 +39,11 @@ const Sidebar = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="p-2 rounded-full hover:bg-hover-color transition-colors max-w-fit group"
+          className="p-2 rounded-full hover:bg-hover-color transition-colors max-w-fit group ml-3 mt-2"
         >
           <Menu
             size={24}
-            className="text-black transition-colors group-hover:text-white"
+            className="text-custom-gray transition-colors group-hover:text-white"
           />
         </motion.button>
 
@@ -52,7 +52,7 @@ const Sidebar = () => {
           {SIDEBAR_ITEMS.map((item) => (
             <Link key={item.href} to={item.href}>
               {/* Apply hover effect to entire div, including icon and text */}
-              <div className="font-semibold flex items-center p-4 text-sm  rounded-lg hover:bg-hover-color hover:text-white transition-colors mb-2 group">
+              <div className="font-semibold flex items-center p-6 text-sm  rounded-lg hover:bg-hover-color hover:text-white transition-colors mb-2 group">
                 {/* Icon color change */}
                 <item.icon
                   size={20}
