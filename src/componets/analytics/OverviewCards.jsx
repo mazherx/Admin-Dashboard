@@ -24,7 +24,7 @@ const OverviewCards = () => {
 					<div className='flex items-center justify-between'>
 						<div>
 							<h3 className='text-sm font-medium text-custom-gray'>{item.name}</h3>
-							<p className='mt-1 text-xl font-semibold text-custom-gray'>{item.value}</p>
+							<p className='mt-1 text-xl font-bold text-custom-gray'>{item.value}</p>
 						</div>
 
 						<div
