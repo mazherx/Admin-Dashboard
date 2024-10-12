@@ -11,7 +11,7 @@ const Notifications = () => {
 	});
 
 	return (
-		<SettingSection icon={Bell} title={"Notifications"}>
+		<SettingSection icon={Bell} title={"Notifications"} >
 			<ToggleSwitch
 				label={"Push Notifications"}
 				isOn={notifications.push}
