@@ -12,7 +12,7 @@ import CustomerSegmentation from '../componets/analytics/CustomerSegmentation';
 
 const AnalyticsPage = () => {
 	return (
-		<div className='flex-1 overflow-auto relative z-10 bg-gray-900'>
+		<div className='flex-1 overflow-auto relative z-10 bg-background-color text-custom-gray'>
 			<Header title={"Analytics Dashboard"} />
 
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
