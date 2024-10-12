@@ -14,8 +14,8 @@ const OverviewCards = () => {
 			{overviewData.map((item, index) => (
 				<motion.div
 					key={item.name}
-					className='bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg
-            rounded-xl p-6 border border-gray-700
+					className='bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg
+            rounded-xl p-6 border border-border-color
           '
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
@@ -23,8 +23,8 @@ const OverviewCards = () => {
 				>
 					<div className='flex items-center justify-between'>
 						<div>
-							<h3 className='text-sm font-medium text-gray-400'>{item.name}</h3>
-							<p className='mt-1 text-xl font-semibold text-gray-100'>{item.value}</p>
+							<h3 className='text-sm font-medium text-custom-gray'>{item.name}</h3>
+							<p className='mt-1 text-xl font-semibold text-custom-gray'>{item.value}</p>
 						</div>
 
 						<div
