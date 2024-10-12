@@ -36,7 +36,7 @@ const RevenueChart = ({
       transition={{ delay: 0.2 }}
     >
       <div className='flex justify-between items-center mb-6'>
-        <h2 className='text-xl font-semibold text-custom-gray'>
+        <h2 className='text-xl font-bold text-custom-gray'>
           Revenue vs Target
         </h2>
         <select
