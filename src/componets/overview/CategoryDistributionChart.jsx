@@ -27,7 +27,7 @@ const CategoryDistributionChart = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3 }}
     >
-      <h2 className="text-lg font-medium mb-4 text-custom-gray">
+      <h2 className="text-lg font-bold mb-4 text-custom-gray ">
         Category Distribution
       </h2>
       <div className="h-80">
