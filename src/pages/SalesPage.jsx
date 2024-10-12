@@ -27,25 +27,25 @@ const SalesPage = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1 }}
 				>
-					<StatCard name='Total Revenue' icon={DollarSign} value={salesStats.totalRevenue} color='#6366F1' />
+					<StatCard name='Total Revenue' icon={DollarSign} value={salesStats.totalRevenue} color='#4880FF' />
 					<StatCard
 						name='Avg. Order Value'
 						icon={ShoppingCart}
 						value={salesStats.averageOrderValue}
-						color='#10B981'
+						color='#4880FF'
 					/>
 					<StatCard
 						name='Conversion Rate'
 						icon={TrendingUp}
 						value={salesStats.conversionRate}
-						color='#F59E0B'
+						color='#4880FF'
 					/>
-					<StatCard name='Sales Growth' icon={CreditCard} value={salesStats.salesGrowth} color='#EF4444' />
+					<StatCard name='Sales Growth' icon={CreditCard} value={salesStats.salesGrowth} color='#4880FF' />
 				</motion.div>
 
                 <SalesOverviewChart />
 
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 mt-6'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 mt-6#4880FF'>
 					<SalesByCategoryChart />
 					<DailySalesTrend />
 				</div>

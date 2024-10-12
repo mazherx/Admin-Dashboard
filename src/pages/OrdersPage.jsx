@@ -28,15 +28,15 @@ const OrdersPage = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1 }}
 				>
-					<StatCard name='Total Orders' icon={ShoppingBag} value={orderStats.totalOrders} color='#6366F1' />
-					<StatCard name='Pending Orders' icon={Clock} value={orderStats.pendingOrders} color='#F59E0B' />
+					<StatCard name='Total Orders' icon={ShoppingBag} value={orderStats.totalOrders} color='#4880FF' />
+					<StatCard name='Pending Orders' icon={Clock} value={orderStats.pendingOrders} color='#4880FF' />
 					<StatCard
 						name='Completed Orders'
 						icon={CheckCircle}
 						value={orderStats.completedOrders}
-						color='#10B981'
+						color='#4880FF'
 					/>
-					<StatCard name='Total Revenue' icon={DollarSign} value={orderStats.totalRevenue} color='#EF4444' />
+					<StatCard name='Total Revenue' icon={DollarSign} value={orderStats.totalRevenue} color='#4880FF' />
 				</motion.div>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8'>
