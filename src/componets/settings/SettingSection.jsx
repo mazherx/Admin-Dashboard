@@ -10,7 +10,7 @@ const SettingSection = ({ icon: Icon, title, children }) => {
 		>
 			<div className='flex items-center mb-4'>
 				<Icon className='text-chart-color mr-4' size='24' />
-				<h2 className='text-xl font-semibold text-custom-gray'>{title}</h2>
+				<h2 className='text-xl font-bold text-custom-gray'>{title}</h2>
 			</div>
 			{children}
 		</motion.div>

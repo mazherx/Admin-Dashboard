@@ -19,7 +19,7 @@ const UserDemographicsChart = () => {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.5 }}
 		>
-			<h2 className='text-xl font-semibold text-custom-gray mb-4'>User Demographics</h2>
+			<h2 className='text-xl font-bold text-custom-gray mb-4'>User Demographics</h2>
 			<div style={{ width: "100%", height: 300 }}>
 				<ResponsiveContainer>
 					<PieChart>

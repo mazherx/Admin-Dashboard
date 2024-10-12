@@ -23,7 +23,7 @@ const SalesOverviewChart = () => {
 			transition={{ delay: 0.2 }}
 		>
 			<div className='flex items-center justify-between mb-6'>
-				<h2 className='text-xl font-semibold text-gray-100'>Sales Overview</h2>
+				<h2 className='text-xl font-bold text-gray-100'>Sales Overview</h2>
 
 				<select
 					className='bg-gray-700 text-white rounded-md px-3 py-1 focus:outline-none focus:ring-2 
