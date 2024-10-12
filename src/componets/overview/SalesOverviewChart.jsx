@@ -24,9 +24,9 @@ const SalesOverviewChart = () => {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.2 }}
 		>
-			<h2 className='text-lg font-medium mb-4 text-custom-gray'>Sales Overview</h2>
+			<h2 className='text-lg font-bold mb-4 text-custom-gray'>Sales Overview</h2>
 
-			<div className='h-80'>
+			<div className='h-80 text-chart-color'>
 				<ResponsiveContainer width={"100%"} height={"100%"}>
 					<LineChart data={salesData}>
 						<CartesianGrid strokeDasharray='3 3' stroke='#4B5563' />
@@ -34,10 +34,10 @@ const SalesOverviewChart = () => {
 						<YAxis stroke='#9ca3af' />
 						<Tooltip
 							contentStyle={{
-								backgroundColor: "rgba(31, 41, 55, 0.8)",
+								backgroundColor: "rgba(0, 0, 0, 0.8)",
 								borderColor: "#4B5563",
 							}}
-							itemStyle={{ color: "#E5E7EB" }}
+							itemStyle={{ color: "#fff" }}
 						/>
 						<Line
 							type='monotone'

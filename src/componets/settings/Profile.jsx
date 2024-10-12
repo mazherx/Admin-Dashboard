@@ -13,7 +13,7 @@ const Profile = () => {
 				/>
 
 				<div>
-					<h3 className='text-lg font-semibold text-custom-gray'>Mazher</h3>
+					<h3 className='text-lg font-bold text-custom-gray'>Mazher</h3>
 					<p className='text-custom-gray'>mazher@example.com</p>
 				</div>
 			</div>
