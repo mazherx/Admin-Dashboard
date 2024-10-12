@@ -14,12 +14,12 @@ const dailyOrdersData = [
 const DailyOrders = () => {
 	return (
 		<motion.div
-			className='bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700'
+			className='bg-white bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-border-color'
 			initial={{ opacity: 0, y: 20 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.2 }}
 		>
-			<h2 className='text-xl font-semibold text-gray-100 mb-4'>Daily Orders</h2>
+			<h2 className='text-xl font-semibold text-custom-gray mb-4'>Daily Orders</h2>
 
 			<div style={{ width: "100%", height: 300 }}>
 				<ResponsiveContainer>
@@ -35,7 +35,7 @@ const DailyOrders = () => {
 							itemStyle={{ color: "#E5E7EB" }}
 						/>
 						<Legend />
-						<Line type='monotone' dataKey='orders' stroke='#8B5CF6' strokeWidth={2} />
+						<Line type='monotone' dataKey='orders' stroke='#4880FF' strokeWidth={2} />
 					</LineChart>
 				</ResponsiveContainer>
 			</div>

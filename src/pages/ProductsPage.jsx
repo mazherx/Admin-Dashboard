@@ -9,7 +9,7 @@ import SalesTrendChart from '../componets/product/SalesTrendChart';
 
 const ProductsPage = () => {
   return (
-    <div className='flex-1 overflow-auto relative z-10'>
+    <div className='flex-1 overflow-auto relative z-10 text-custom-gray'>
       <Header title='Products' />
 
       <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
