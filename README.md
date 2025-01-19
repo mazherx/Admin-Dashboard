@@ -7,7 +7,7 @@ Check out the live site here: https://admiinsdashboard.netlify.app/
 
 
 
-## Screenshots
+## Screenshot
 
 [![Capture1.png](https://i.postimg.cc/8PD46mnS/Capture1.png)](https://postimg.cc/14CDxwQC)
 
