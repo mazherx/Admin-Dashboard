@@ -49,4 +49,3 @@ The React framework handles the core functionality, creating dynamic and interac
 ## Contributing
 
 Feel free to submit issues or pull requests to contribute to the development of Admin Dashboard. Let's make it even better!
-
