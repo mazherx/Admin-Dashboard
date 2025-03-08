@@ -1,4 +1,3 @@
-
 # Admin Dashboard
 
 An elegant admin dashboard built with React and Tailwind CSS, featuring a clean, responsive UI for seamless navigation across key sections like Overview, Products, Users, Sales, and more. The design is modern, with a professional color theme and a gradient background for a polished look. This project focuses solely on the frontend interface, offering a visually appealing experience without backend integration.
